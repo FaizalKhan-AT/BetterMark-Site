@@ -179,9 +179,30 @@ body {
   color: var(--text-color);
   background-color: transparent;
 }
-
-@media screen and (max-width: 769px) {
-  .slide-rev {
-    flex-direction: column-reverse !important;
+@media screen and (max-width: 1326px) {
+  .main-heading {
+    font-size: 4rem;
+  }
+  .main-list {
+    font-size: calc(1rem + 0.6vw) !important;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .main-heading {
+    font-size: 3.7rem;
+  }
+  .main-list {
+    font-size: calc(0.9rem + 0.6vw) !important;
+  }
+  #main-img {
+    width: 400px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-heading {
+    font-size: 3.3rem;
+  }
+  .main-list {
+    font-size: calc(0.8rem + 0.6vw) !important;
   }
 }
